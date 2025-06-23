@@ -1,13 +1,38 @@
-# Folders
+# Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+vehicledet-env/
+env/
+venv/
+
+# Build artifacts
 build/
-*.egg-info
+dist/
+*.egg-info/
 
-
-# Files
+# Media/model files
 *.weights
 *.t7
 *.mp4
 *.avi
-*.so
+*.jpg
+*.png
+*.jpeg
+
+# Logs and text outputs
+*.log
 *.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode/IDE config
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
